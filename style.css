@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dancing Script";
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+}
+
+.container > img {
+  height: 300px;
+  width: 300px;
+  border-radius: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 120px;
+}
+
+.buttons > button {
+  font-size: 20px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: white;
+  transition: background-color 0.2s ease-in;
+}
+
+.yes-btn {
+  z-index: 99;
+}
+
+.yes-btn:hover {
+  background-color: lightgreen;
+}
+
+.no-btn:hover {
+  background-color: lightcoral;
+}
